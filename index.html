@@ -1,0 +1,587 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Home - Plumharbour</title>
+<meta name="robots" content="index, follow">
+<meta name="revisit-after" content="1 day">
+<meta name="generator" content="WYSIWYG Web Builder 15 - http://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="Asset 3.png" rel="icon" type="image/png">
+<link href="Asset 3.png" rel="icon" type="image/png">
+<link href="Asset 3.png" rel="icon" type="image/png">
+<link href="Asset 3.png" rel="apple-touch-icon">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:700,500,400" rel="stylesheet">
+<link href="www.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="wb.lazyload.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="wb.parallax.min.js"></script>
+<script src="wb.overlay.min.js"></script>
+<script src="scrollspy.min.js"></script>
+<script src="wb.rotate.min.js"></script>
+<script src="wwb15.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $('#wb_LayoutGrid5').addClass('visibility-hidden');
+   $('#wb_LayoutGrid9').addClass('visibility-hidden');
+   function onScrollHeading2()
+   {
+      var $obj = $("#wb_Heading2");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         $('#wb_Heading2').stop().fadeTo(500,1);
+      }
+   }
+   onScrollHeading2();
+   $(window).scroll(function(event)
+   {
+      onScrollHeading2();
+   });
+   function onScrollLayoutGrid5()
+   {
+      var $obj = $("#wb_LayoutGrid5");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_LayoutGrid5', 'animate-fade-in-left', 0, 500);
+      }
+   }
+   onScrollLayoutGrid5();
+   $(window).scroll(function(event)
+   {
+      onScrollLayoutGrid5();
+   });
+   $('#wb_LayoutGrid10').parallax();
+   function onScrollLayoutGrid7()
+   {
+      var $obj = $("#wb_LayoutGrid7");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         $('#wb_LayoutGrid7').stop().fadeTo(1000,1);
+      }
+   }
+   onScrollLayoutGrid7();
+   $(window).scroll(function(event)
+   {
+      onScrollLayoutGrid7();
+   });
+   function onScrollLayoutGrid9()
+   {
+      var $obj = $("#wb_LayoutGrid9");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_LayoutGrid9', 'animate-fade-in-left', 0, 500);
+      }
+   }
+   onScrollLayoutGrid9();
+   $(window).scroll(function(event)
+   {
+      onScrollLayoutGrid9();
+   });
+   function onScrollLayoutGrid12()
+   {
+      var $obj = $("#wb_LayoutGrid12");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         ShowObjectWithEffect('wb_LayoutGrid12', 1, 'slideleft', 1000, 'swing');
+      }
+   }
+   onScrollLayoutGrid12();
+   $(window).scroll(function(event)
+   {
+      onScrollLayoutGrid12();
+   });
+   $("a[href*='#aboutus']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_aboutus').offset().top }, 600, 'easeInSine');
+   });
+   $("a[href*='#Bookmark1']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_Bookmark1').offset().top }, 600, 'linear');
+   });
+   var $overlaymenu = $('#OverlayMenu1-overlay');
+   $overlaymenu.overlay();
+   $('#OverlayMenu1').on('click', function(e)
+   {
+      $.overlay.show($overlaymenu);
+      return false;
+   });
+   $('img[data-src]').lazyload();
+   if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {$('#preloader').remove();}
+});
+$(window).on('load', function()
+{
+   $('#preloader').remove();
+});
+</script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+</head>
+<body data-spy="scroll" onload="ShowObject('wb_LayoutGrid9', 0);ShowObjectWithEffect('wb_LayoutGrid7', 0, '', 0);ShowObjectWithEffect('wb_LayoutGrid12', 0, '', 0);ShowObject('wb_LayoutGrid5', 0);return false;">
+<div id="wb_FlexContainer1">
+<div id="FlexContainer1">
+<div id="wb_large-logo">
+<img src="images/placeholder.gif" data-src="images/Asset 7.png" id="large-logo" alt="plumharbour_logo" title="plumharbour">
+</div>
+<div id="wb_OverlayMenu1">
+<a href="#" id="OverlayMenu1">
+<span class="line"></span>
+<span class="line">
+</span><span class="line"></span>
+</a>
+
+</div>
+<div id="wb_TextMenu2">
+<span><a href="" class="nav">HOME</a></span><span><a href="#aboutus" class="nav">ABOUT US</a></span><span><a href="#Bookmark1" class="nav">PRODUCTS &amp; SERVICES</a></span><span><a href="#contact" class="nav">CONTACT</a></span>
+</div>
+</div>
+</div>
+<div id="wb_FlexContainer3">
+<div id="FlexContainer3">
+<div id="wb_hero">
+<div id="hero">
+<div class="row">
+<div class="col-1">
+<div id="wb_Heading1">
+<h1 id="Heading1">Supplier, Stockist & Procurement Service </h1>
+</div>
+<div id="wb_Text15">
+<span style="color:#FFFFFF;font-family:'Montserrat';font-weight:500;font-size:16px;line-height:20px;">We provide a range of equipment, parts, accessories and services to Oil and Gas Industry and other Industries. </span>
+</div>
+<div id="wb_Shape4">
+<a href="#Bookmark1"><div id="Shape4"><div id="Shape4_text"><span style="color:#FFFFFF;font-family:'Montserrat';font-weight:700;font-size:20px;"><strong>View all services</strong></span></div></div></a>
+</div>
+</div>
+<div class="col-2">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid6">
+<div id="LayoutGrid6">
+<div class="row">
+<div class="col-1">
+<div id="wb_Heading2">
+<h1 id="Heading2">PlumHarbour</h1>
+</div>
+<hr id="Line1">
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid5">
+<div id="LayoutGrid5">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text16">
+<span style="color:#4F4F4F;font-family:Montserrat;font-size:16px;line-height:33px;"><strong>PLUMHARBOUR</strong> is an indigenous and reliable supplier, stockist and procurement service company in Nigeria providing a complete range of equipment, parts, accessories and services to Oil and Gas Industry and other Industries. Realising the increased of need for reliable and on time suppliers for equipment, parts, accessories and service in the oil and gas sector and other sectors in Nigeria, we are taking thus challenge to be one of the trustworthy, reliable, honest and on time suppliers and stockist for&nbsp; materials for the oil and gas industry and other industries in Nigeria.</span><span style="color:#000000;font-family:Montserrat;font-size:16px;line-height:18px;"><br></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid10">
+<div id="LayoutGrid10">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_LayoutGrid7">
+<div id="LayoutGrid7">
+<div class="row">
+<div class="col-1">
+<div id="wb_Heading3">
+<h1 id="Heading3">What we Do</h1>
+</div>
+<hr id="Line2">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid9">
+<div id="LayoutGrid9">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_Text17">
+<span style="color:#0071BC;font-family:'Montserrat';font-weight:700;font-size:20px;line-height:27px;"><strong>Products</strong></span>
+</div>
+<div id="wb_Text8">
+<span style="color:#000000;font-family:Montserrat;font-size:13px;line-height:27px;">PLUMHARBOUR provide comprehensive range of products, parts and component as well as complete systems on customer request and demand. Our OEM equipment/products are held locally, nationally and internationally for rapid dispatch in order to minimise customer down time.</span>
+</div>
+</div>
+</div>
+<div class="col-2">
+<div class="col-2-padding">
+<div id="wb_Text7">
+<span style="color:#0071BC;font-family:'Montserrat';font-weight:700;font-size:20px;line-height:27px;"><strong>Services</strong></span>
+</div>
+<div id="wb_Text9">
+<span style="color:#000000;font-family:Montserrat;font-size:13px;line-height:24px;">PLUMHARBOUR provides range of services that allow its customers to focus on their core activities whilst benefitting from our expertise, support and strategic vendor relationships.<br><br></span>
+</div>
+</div>
+</div>
+<div class="col-3">
+<div class="col-3-padding">
+<div id="wb_Text12">
+<span style="color:#0071BC;font-family:'Montserrat';font-weight:700;font-size:20px;line-height:27px;"><strong>Plumharbour Core Values</strong></span>
+</div>
+<div id="wb_Text11">
+<ul style="font-size:15px;line-height:20px;color:#000000;list-style-type:disc;">
+<li style="margin:0 0 0 24px;"><p style="font-size:15px;line-height:20px;line-height:25.53px;"><span style="color:#000000;">Customers</span>
+</li>
+<li style="margin:0 0 0 24px;"><p style="font-size:15px;line-height:20px;color:#000000;line-height:25.53px;"><span style="color:#000000;">Results</span>
+</li>
+<li style="margin:0 0 0 24px;"><p style="font-size:15px;line-height:20px;color:#000000;line-height:25.53px;"><span style="color:#000000;">Integrity</span>
+</li>
+<li style="margin:0 0 0 24px;"><p style="font-family:Arial;font-size:15px;line-height:16.5px;color:#000000;line-height:25.53px;"><span style="font-family:Montserrat;color:#000000;">Innovation</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_FlexContainer4">
+<section id="FlexContainer4">
+<div id="wb_LayoutGrid12">
+<div id="LayoutGrid12">
+<div class="row">
+<div class="col-1">
+<div id="wb_aboutus">
+<a id="aboutus">&nbsp;</a>
+
+</div>
+<div id="wb_Heading4">
+<h1 id="Heading4">About Us</h1>
+</div>
+<hr id="Line3">
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid8">
+<div id="LayoutGrid8">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_Text13">
+<span style="color:#FFFFFF;font-family:Montserrat;font-size:16px;line-height:26px;">PLUMHARBOUR is a supplier of specialized products for energy and infrastructure markets in Nigeria. We manage procurement and provide value-added services and delivery of high-performance products and services to our customers.<br>We leverage our vendor (original equipment manufacturers) relationships, resources, expertise, and scale to collaborate with our customers and meet the largest, most complex, and demanding procurement challenges in Nigeria.<br></span>
+</div>
+</div>
+</div>
+<div class="col-2">
+<div class="col-2-padding">
+<div id="wb_Text14">
+<span style="color:#000000;font-family:Arial;font-size:13px;"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid20">
+<div id="LayoutGrid20">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text25">
+<span style="color:#FFFFFF;font-family:'Montserrat';font-weight:700;font-size:21px;line-height:31px;">MISSION VISION<br></span><span style="color:#FFFFFF;font-family:Montserrat;font-size:21px;line-height:30px;"><br></span><span style="color:#FFFFFF;font-family:Montserrat;font-size:16px;line-height:30px;">PLUMHARBOUR will strive to achieve 100% Customer satisfaction through a quality product and programme, team work, continuous improvement and strong relationships with all stakeholders.<br>To achieve the Mission Statement, PLUMHARBOUR will endeavour:</span>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_Text27">
+<span style="color:#FFFFFF;font-family:Montserrat;font-size:16px;line-height:31px;">To engage in a partnership of success with the customer through both its products and services.<br>To build success through supplier management, building on existing supply chain systems<br>To develop integrated information systems to be shared with customers and suppliers as a platform for communication<br>To create a culture of continuous improvement in all areas of the business<br></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<div id="FlexContainer7">
+<div id="FlexContainer7-overlay"></div>
+<div id="wb_LayoutGrid21">
+<div id="LayoutGrid21">
+<div class="row">
+<div class="col-1">
+</div>
+<div class="col-2">
+<div id="wb_Text26">
+<span style="color:#FFFFFF;font-family:Montserrat;font-size:21px;line-height:31px;"><strong>OUR PEOPLE  <br>      </strong><br></span><span style="color:#FFFFFF;font-family:Montserrat;font-size:16px;line-height:30px;">Our team works with the clients on their specific project requirements and equipment specifications. We have extensive experience and expertise to handle and execute all aspects of oilfield and engineering supplies. Our experience guarantees the customer with high quality, cost effective, prompt and professional supplies and services.<br>Major oilfield companies and their projects and other industries as always demand proven equipment at competitive prices, which we complies with our quality, technology, and value. With our experienced personnel, PLUMHARBOUR has the expertise to supply materials at the optimum price, specification and delivery for important project requirements.<br><br></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_FlexContainer5">
+<section id="FlexContainer5">
+<div id="wb_LayoutGrid13">
+<div id="LayoutGrid13">
+<div class="row">
+<div class="col-1">
+<div id="wb_Bookmark1">
+<a id="Bookmark1">&nbsp;</a>
+
+</div>
+<div id="wb_Heading6">
+<h1 id="Heading6">Products & Services</h1>
+</div>
+<hr id="Line5">
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid14">
+<div id="LayoutGrid14">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_LayoutGrid16">
+<div id="LayoutGrid16">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_Text18">
+<span style="color:#0071BC;font-family:'Montserrat';font-weight:700;font-size:19px;line-height:33px;">WHO WE ARE</span><span style="color:#FFFFFF;font-family:Montserrat;font-size:19px;line-height:33px;"><br></span><span style="color:#4F4F4F;font-family:Montserrat;font-size:13px;line-height:33px;">We are distributors of equipment for the Oil, Gas and other Industries in Nigeria working with procurement teams in many industries in Nigeria.</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-2">
+<div class="col-2-padding">
+<div id="wb_LayoutGrid1">
+<div id="LayoutGrid1">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_Text19">
+<span style="color:#0071BC;font-family:'Montserrat';font-weight:700;font-size:19px;line-height:33px;">WHAT WE DO</span><span style="color:#0071BC;font-family:Montserrat;font-size:19px;line-height:33px;"><br></span><span style="color:#4F4F4F;font-family:Montserrat;font-size:13px;line-height:33px;">PLUMHARBOUR has the ability to meet customer requirements, including tailor-made supply packages, from single items to full projects. As procurement specialists, we can locate equipment from reputable sources across the globe.</span><span style="color:#0071BC;font-family:Montserrat;font-size:16px;line-height:18px;"><br></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_ThreeColumns">
+<div id="ThreeColumns-overlay"></div>
+<div id="ThreeColumns">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_IconFont1">
+<div id="IconFont1"><i class="material-icons">&#xe86c;</i></div>
+</div>
+<div id="wb_Heading7">
+<h3 id="Heading7">Experience</h3>
+</div>
+<div id="wb_Text20">
+<span style="color:#FFFFFF;font-family:Montserrat;font-size:13px;line-height:31px;">Utilising more than 7 years of knowledge in the Oil and Gas Industry, PLUMHARBOUR has the ability to meet customer requirements, including tailor-made supply packages, from single items to full projects with support of our vendors and OEMs.<br></span>
+</div>
+</div>
+</div>
+<div class="col-2">
+<div class="col-2-padding">
+<div id="wb_IconFont2">
+<div id="IconFont2"><i class="material-icons">&#xe8d0;</i></div>
+</div>
+<div id="wb_Heading8">
+<h3 id="Heading8">Quality</h3>
+</div>
+<div id="wb_Text21">
+<span style="color:#FFFFFF;font-family:Montserrat;font-size:13px;line-height:33px;">All our Original Equipment Manufacturer (OEM) and local and international suppliers are ISO 9001:2015 accredited; we thrive to be a leading company in the supply of quality equipment combined with excellent Customer Service in Nigeria.<br></span>
+</div>
+</div>
+</div>
+<div class="col-3">
+<div class="col-3-padding">
+<div id="wb_IconFont3">
+<div id="IconFont3"><i class="material-icons">&#xe905;</i></div>
+</div>
+<div id="wb_Heading9">
+<h3 id="Heading9">Shipments</h3>
+</div>
+<div id="wb_Text22">
+<span style="color:#FFFFFF;font-family:Montserrat;font-size:13px;line-height:33px;">Our logistical service ensures all orders are inspected for quality and quantity compliance and despatched promptly to arrive at our client’s designated destination in a timely manner.<br></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid15">
+<div id="LayoutGrid15">
+<div class="row">
+<div class="col-1">
+<div id="wb_Heading10">
+<h1 id="Heading10">Partnerships & Collaboration</h1>
+</div>
+<hr id="Line6">
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid22">
+<div id="LayoutGrid22">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_LayoutGrid23">
+<div id="LayoutGrid23">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_Text28">
+<span style="color:#000000;font-family:Montserrat;font-size:13px;line-height:31px;">We have reputable relationship with several original equipment manufacturers, vendors, local and international suppliers who have proven records of successful project deliveries.</span><span style="color:#000000;font-family:Calibri;font-size:16px;line-height:22px;"><br></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid24">
+<div id="LayoutGrid24">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_Text29">
+<span style="color:#0071BC;font-family:'Montserrat';font-weight:700;font-size:21px;line-height:67px;">Why partner/collaborate with us?</span><span style="color:#0071BC;font-family:Montserrat;font-size:19px;line-height:25px;"><br></span><span style="color:#000000;font-family:Montserrat;font-size:13px;line-height:25px;">We have built a trusted reputation for working with customers and clients in the oil and gas industry in Nigeria. We have good relationship with procurement team in the different customers in many industries in Nigeria because of our ability to deliver and provide excellent products and services.<br>If you’re interested in partnership or collaboration with us , contact us @......<br></span><span style="color:#0071BC;font-family:Montserrat;font-size:16px;line-height:18px;"><br></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-2">
+<div class="col-2-padding">
+<div id="wb_Text23">
+<span style="color:#000000;font-family:Arial;font-size:13px;"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_contact">
+<a id="contact">&nbsp;</a>
+
+</div>
+</section>
+</div>
+<div id="wb_FlexContainer6">
+<div id="FlexContainer6-overlay"></div>
+<div id="FlexContainer6">
+<div id="wb_LayoutGrid3">
+<div id="LayoutGrid3">
+<div class="row">
+<div class="col-1">
+<div id="wb_Heading5">
+<h1 id="Heading5">Take Action</h1>
+</div>
+<hr id="Line4">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid4">
+<div id="LayoutGrid4">
+<div class="col-1">
+<div id="wb_Image1">
+<img src="images/Asset 8.png" id="Image1" alt="">
+</div>
+<div id="wb_Text10">
+<span style="color:#FFFFFF;font-family:Montserrat;font-size:13px;line-height:24px;">As procurement specialists, we can locate both Original (OEM) and Non-Original Equipment Manufacturer (Non-OEM) of the highest quality from reputable sources across the globe, ensuring our clients get the best delivery and price available on the market.</span><span style="color:#000000;font-family:Montserrat;font-size:15px;line-height:20px;"><br></span>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_Text3">
+<span style="color:#FFFFFF;font-family:Montserrat;font-size:15px;line-height:24px;"><strong>PLUMHABOUR LIMITED.<br><br></strong></span><span style="color:#FFFFFF;font-family:Montserrat;font-size:13px;line-height:24px;">Plot 3 Adokiye Avenue Off Aeroplane Drive, Peter Odili Road, Rumuoparali, Port Harcourt, 500211, Nigeria<br></span>
+</div>
+<div id="wb_Shape1">
+<a href="" onclick="window.location.href='tel:08182274077';return false;"><div id="Shape1"><div id="Shape1_text"><span style="color:#FFFFFF;font-family:'Montserrat';font-weight:500;font-size:17px;">Call us</span></div></div></a>
+</div>
+<div id="wb_Text4">
+<span style="color:#FFFFFF;font-family:;font-size:16px;">&#x1F4F1;</span><span style="color:#FFFFFF;font-family:'Montserrat';font-weight:500;font-size:16px;">&nbsp; + 234 8182274077</span>
+</div>
+<div id="wb_Text6">
+<p style="font-family:Arial;font-size:13px;line-height:16px;color:#FFFFFF;line-height:22.8px;"><span style="font-family:Segoe UI Symbol;font-size:16px;color:#FFFFFF;">📧</span><span style="font-family:Montserrat;font-weight:500;font-size:16px;color:#FFFFFF;">&nbsp;</span><span style="font-family:Montserrat;font-weight:500;font-size:16px;color:#FFFFFF;">&nbsp;</span><span style="font-family:Montserrat;font-weight:500;font-size:16px;color:#FFFFFF;">@plumharbour.com</span></p>
+</div>
+</div>
+<div class="col-3">
+<input type="text" id="Editbox1" name="Editbox1" value="" spellcheck="false" placeholder="Email">
+<textarea name="TextArea1" id="TextArea1" rows="4" cols="33" spellcheck="false" placeholder="Message here...."></textarea>
+<input type="submit" id="Button1" name="" value="CONTACT US">
+<div id="wb_Text5">
+<span style="color:#FFFFFF;font-family:Montserrat;font-size:15px;line-height:20px;"><strong>SOCIAL</strong></span>
+</div>
+<div id="FlexContainer10">
+<div id="wb_FontAwesomeIcon1">
+<div id="FontAwesomeIcon1"><i class="fa fa-facebook-square"></i></div>
+</div>
+<div id="wb_FontAwesomeIcon2">
+<div id="FontAwesomeIcon2"><i class="fa fa-instagram"></i></div>
+</div>
+<div id="wb_FontAwesomeIcon3">
+<div id="FontAwesomeIcon3"><i class="fa fa-youtube-play"></i></div>
+</div>
+<div id="wb_FontAwesomeIcon4">
+<div id="FontAwesomeIcon4"><i class="fa fa-whatsapp"></i></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid2">
+<div id="LayoutGrid2">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text1">
+<span style="color:#FFFFFF;font-family:'Montserrat';font-weight:500;font-size:13px;line-height:19px;">2020 © www.plumharbour.com&nbsp; |&nbsp; Made with&nbsp; &#x1F497;&nbsp; by Rawlins<br></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="OverlayMenu1-overlay">
+<div class="OverlayMenu1">
+<ul class="drilldown-menu" role="menu">
+<li><a role="menuitem" href="#">Home</a></li>
+<li><a role="menuitem" href="#aboutus">About&nbsp;Us</a></li>
+<li><a role="menuitem" href="#Bookmark1">Products&nbsp;&amp;&nbsp;Services</a></li>
+<li><a role="menuitem" href="#contact">Contact</a></li>
+   </ul>
+</div>
+<a class="close-button" id="OverlayMenu1-close" href="#" role="button" aria-hidden="true"><span></span></a>
+</div>
+<div id="preloader"></div>
+</body>
+</html>
